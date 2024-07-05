@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+text-align: center;
+ /* background-color: wheat; */
+}
+
+h1{
+    background-color: rgb(2, 2, 46);
+    color: white;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* box-shadow: 0px 7px 62px #050517f7; */
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 5rem;
+
+}
+.img :hover{
+opacity: 0.57;
+cursor: pointer;
+background-color: black;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+border-radius: 80px;
+object-fit: cover;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.score{
+    font-size: 45px;
+
+}
+.scoreCard p{
+    margin:16px
+}
+.name{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.msg{
+    background-color: rgb(2, 2, 46);
+    color: white;
+    height: 3rem;
+    text-align: center;
+    line-height: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    padding: 15px;
+    border-radius: 10px;
+}
+.msg :hover{
+opacity:0.5;
+cursor: pointer;
+}
